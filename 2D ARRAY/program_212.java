@@ -16,6 +16,8 @@ public class program_212 {
                 System.out.print(arr[i][j] +" "); 
             }
             System.out.println();
+
+            
         }
     }
 }
