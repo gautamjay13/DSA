@@ -1,14 +1,16 @@
 import java.util.Scanner;
 
-public class Program_2 {
-    public static void print (int n)
-    {
-        if (n==0) {
-           return ; 
-        }
-        System.out.print (n+" ");
-        print(n-1) ;
+public class Program_4 {
+
+    public static void sum(int n,int s) {
         
+        if (n==0) {
+            
+            System.out.println(s);
+            return ; 
+        }
+        sum (  n -1  , s + n ) ;
+
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -16,6 +18,7 @@ public class Program_2 {
        
         int n=sc.nextInt() ;
         
-        print(n) ;
+        sum ( n, 0) ; 
+
     }
 }
