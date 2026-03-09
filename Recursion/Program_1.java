@@ -19,6 +19,6 @@ public class Program_1 {
 
         System.out.println( "Factorial of " + n + " is: " + fact(n) );
 
-
+        scanner.close();
     }
 }

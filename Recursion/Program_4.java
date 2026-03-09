@@ -21,6 +21,6 @@ public class Program_4 {
         int n=sc.nextInt() ;
         
         sum ( n, 0) ; 
-
+sc.close();
     }
 }

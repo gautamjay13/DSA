@@ -18,5 +18,6 @@ public class Program_3 {
         n = sc.nextInt();
 
         print(1);
+        sc.close();
     }
 }

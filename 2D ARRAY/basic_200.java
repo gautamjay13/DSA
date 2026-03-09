@@ -31,7 +31,7 @@ public class basic_200 {
         System.out.println();
     }
     
-    
+    sc.close();
      
  }
 }

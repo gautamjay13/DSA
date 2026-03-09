@@ -19,6 +19,6 @@ public class Program_5 {
         System.out.println("enter your power ");
         int b=sc.nextInt() ;
         System.out.println(a +  " raise to the power " +b + " is " + power(a,b) );
-        
+        sc.close();
     }
 } 

@@ -25,7 +25,7 @@ public class program_206 {
                 System.out.print(arr[i][j] + " ");
             }
             System.out.println();
-        }
+        }sc.close();
 
     }
 }
