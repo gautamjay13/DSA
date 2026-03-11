@@ -6,6 +6,6 @@ public class indexofcapmpareto {
         // compare to
         String a = "abc" ;
         String b = "dbc" ;
-        System.out.println(a.compareTo(b));
+        System.out.println(a.compareTo(b ));
     }
 }
