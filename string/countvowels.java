@@ -12,7 +12,7 @@ public class countvowels {
             }
         } 
         System.out.println(count);
-        
+         
         
     }
 }
