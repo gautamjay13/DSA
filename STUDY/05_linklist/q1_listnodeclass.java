@@ -8,7 +8,7 @@ class Node {
         this.val = val;
     }
 }
-public class listnodeclass {
+public class q1_listnodeclass {
     public static void main(String[] args) {
         Node a = new Node(10);
         Node b = new Node(20);

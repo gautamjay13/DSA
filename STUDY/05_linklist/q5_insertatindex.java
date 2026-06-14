@@ -30,6 +30,24 @@ class SLL {
             head = temp ; 
         }
     }
+    void insert(int index , int val){
+        if (index==0) {
+            insertathead(val);
+            return ;
+        }
+        else{
+            System.out.println("invalid index");
+        }
+
+        Node temp = new Node(val);
+        Node x = head ; 
+        for (int i = 1; i < index -1 ; i++) {
+          x = x.next ;  
+        }
+        temp.next = x.next ;
+        x.next = temp ; 
+
+    }
     void display() {
         Node temp = head;
         while (temp != null) {
@@ -40,7 +58,7 @@ class SLL {
     }
 }
 
-public class q4_insertAthead {
+public class q5_insertatindex {
     public static void main(String[] args) {
         SLL list = new SLL();
         list.insertatlast(10);
@@ -50,6 +68,9 @@ public class q4_insertAthead {
         list.display();
         list.insertathead(50);
         list.display();
-        
+        list.insert(3,100);
+        list.display();
+        list.insert(6, 100);
+        list.display();
     }
 }
