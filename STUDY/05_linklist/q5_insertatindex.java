@@ -48,6 +48,7 @@ class SLL {
         x.next = temp ; 
 
     }
+    
     void display() {
         Node temp = head;
         while (temp != null) {

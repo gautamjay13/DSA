@@ -1,4 +1,4 @@
-package linklist;
+
 
 class Node {
     int val;
@@ -8,7 +8,7 @@ class Node {
         this.val = val;
     }
 }
-public class dispalyingthenode {
+public class q2_dispalyingthenode {
     public static void main(String[] args) {
         Node a = new Node(10);
         Node b = new Node(20);

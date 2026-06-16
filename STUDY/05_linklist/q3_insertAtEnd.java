@@ -1,4 +1,4 @@
-package linklist;
+
 
 class Node {
     int val;
