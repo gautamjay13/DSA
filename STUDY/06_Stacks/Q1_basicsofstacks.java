@@ -1,5 +1,4 @@
-import java.util.*;
-
+import java.util.Stack ;
 public class basicsofstacks {
     public static void main(String[] args) {
       Stack<Integer> st = new Stack<>() ;  
@@ -11,5 +10,9 @@ public class basicsofstacks {
 
       System.out.println(st.peek());
       System.out.println(st);
+      st.pop() ;
+      System.out.println(st);
+      System.out.println(st.peek());
+      System.out.println("Size is : " + st.size());
     }
 }
