@@ -4,6 +4,10 @@ class Stack {
     int idx = 0;
 
     void push(int x) {
+        if(isfull()) {
+            System.out.println("the stacks is full");
+           return ;
+        }
         arr[idx] = x;
         idx++;
     }
@@ -14,7 +18,7 @@ class Stack {
             return -1;
 
         }
-        return arr[idx - 1];
+         return arr[idx - 1];
     }
 
     int pop() {
@@ -38,10 +42,22 @@ class Stack {
     int size (){
         return idx ;
     }
+    boolean isfull() {
+        if (idx==arr.length) {
+            return true ;
+        }
+        return false ;
+    }
+    boolean isempty() {
+        if (size()==0) {
+            return true ;
+        }
+        else return false;
+    }
 
 }
 
-public class arrayimplementatio {
+public class Q5_arrayimplementatio {
     public static void main(String[] args) {
         Stack st = new Stack();
         st.push(4);

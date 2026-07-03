@@ -1,4 +1,4 @@
-class Node {
+ class Node {
     int val;
     Node next;
 

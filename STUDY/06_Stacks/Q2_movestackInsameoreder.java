@@ -4,7 +4,7 @@ import java.util.Stack;
 
 import java.util.Scanner;
 
-public class movestackInsameoreder {
+public class Q2_movestackInsameoreder {
 
     public static void main(String[] args) {
 
